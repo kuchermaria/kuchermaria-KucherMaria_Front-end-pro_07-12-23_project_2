@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hillel</title>
+    <script>
+      const num_1 = prompt("Введіть перше число");
+      const num_2 = prompt("Введіть друге число");
+
+      function add(x, y) {
+        return x + y;
+      }
+
+      function subtract(x, y) {
+        return x - y;
+      }
+
+      function multiply(x, y) {
+        return x * y;
+      }
+
+      function divide(x, y) {
+        return x / y;
+      }
+      alert(
+        num_1 +
+          " + " +
+          num_2 +
+          " = " +
+          add(Number(num_1), Number(num_2)) +
+          "\n" +
+          num_1 +
+          " - " +
+          num_2 +
+          " = " +
+          subtract(Number(num_1), Number(num_2)) +
+          "\n" +
+          num_1 +
+          " * " +
+          num_2 +
+          " = " +
+          multiply(Number(num_1), Number(num_2)) +
+          "\n" +
+          num_1 +
+          " / " +
+          num_2 +
+          " = " +
+          divide(Number(num_1), Number(num_2))
+      );
+    </script>
+  </head>
+  <body></body>
+</html>
